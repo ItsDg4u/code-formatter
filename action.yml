@@ -1,0 +1,8 @@
+name: 'Awesome Code Formatter'
+description: 'Formats codebase prior to build'
+runs:
+  using: 'composite'
+  steps:
+    - shell: bash
+      run: |
+        echo "Formatting codebase cleanly..."
